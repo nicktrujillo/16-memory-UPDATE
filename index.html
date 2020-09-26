@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="startScreen">
+      <h1 id="memoryGame">memory game 🧠</h1>
+      <div id="modeButtons">
+        <button id="easy">easy</button>
+        <button id="hard">hard</button>
+      </div>
+    </div>
+    <div id="gameScreen">
+      <h1>pick the matching pairs!</h1>
+      <div id="cardContainer"></div>
+      <div id="healthContainer"></div>
+      <h1 id="timer">ready, go!</h1>
+    </div>
+    <div id="winScreen">
+      <h1 id="win">horray, you win! 🤩</h1>
+      <div class="resetContainer">
+        <button class="reset" onClick="location.reload();">play again</button>
+      </div>
+    </div>
+    <div id="loseScreen">
+      <h1 id="lose">sorry, you lost 🙁</h1>
+      <div class="resetContainer">
+        <button class="reset" onClick="location.reload();">play again</button>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

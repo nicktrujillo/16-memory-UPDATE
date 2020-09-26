@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(230, 211, 187);
+  font-family: "Architects Daughter", cursive;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-size: 40px;
+  color: rgb(20, 24, 22);
+}
+
+h2 {
+  text-align: center;
+}
+
+.cards {
+  height: 100px;
+  background-color: rgb(51, 83, 76);
+  text-align: center;
+  padding-top: 18px;
+  margin: 20px;
+  font-size: 50px;
+  color: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.cards:hover {
+  background-color: rgb(76, 112, 105);
+}
+
+#modeButtons {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+#easy {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  margin-right: 20px;
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  background-color: rgb(230, 211, 187);
+  outline: none;
+  border: none;
+  font-family: "Architects Daughter", cursive;
+  font-size: 30px;
+  color: rgb(20, 24, 22);
+}
+
+#easy:hover,
+#easy:focus,
+#easy:active {
+  transform: scale(1.1);
+}
+
+#hard {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  margin-left: 20px;
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  background-color: rgb(230, 211, 187);
+  outline: none;
+  border: none;
+  font-family: "Architects Daughter", cursive;
+  font-size: 30px;
+  color: rgb(20, 24, 22);
+}
+
+#hard:hover,
+#hard:focus,
+#hard:active {
+  transform: scale(1.1);
+}
+
+#cardContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+#memoryGame {
+  color: rgb(230, 211, 187);
+  font-size: 70px;
+  margin-top: 200px;
+}
+
+#healthContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: -20px;
+}
+
+progress {
+  border: 3px solid rgb(51, 83, 76);
+  width: 400px;
+  height: 40px;
+}
+
+progress {
+  color: lightblue;
+}
+
+progress::-webkit-progress-value {
+  background: lightblue;
+}
+
+progress::-moz-progress-bar {
+  background: lightcolor;
+}
+
+progress::-webkit-progress-value {
+  background: rgb(240, 134, 108);
+}
+
+progress::-webkit-progress-bar {
+  background: transparent;
+}
+
+#win {
+  color: rgb(230, 211, 187);
+  font-size: 70px;
+  margin-top: 200px;
+}
+
+#lose {
+  color: rgb(230, 211, 187);
+  font-size: 70px;
+  margin-top: 200px;
+}
+
+.reset {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  margin-left: 20px;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  background-color: rgb(230, 211, 187);
+  outline: none;
+  border: none;
+  font-family: "Architects Daughter", cursive;
+  font-size: 30px;
+  color: rgb(20, 24, 22);
+}
+
+.reset:hover,
+.reset:focus,
+.reset:active {
+  transform: scale(1.1);
+}
+
+.resetContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
