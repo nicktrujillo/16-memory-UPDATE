@@ -8,7 +8,7 @@ document.querySelector(
 <div class="cards" data-title="5">@</div>
 <div class="cards" data-title="6">&</div>
 <div class="cards" data-title="7">$</div>
-<div class="cards" data-title="8">Â¥</div>
+<div class="cards" data-title="8">¥</div>
 <div class="cards" data-title="9">*</div>
 <div class="cards" data-title="1">?</div>
 <div class="cards" data-title="2">!</div>
@@ -17,7 +17,7 @@ document.querySelector(
 <div class="cards" data-title="5">@</div>
 <div class="cards" data-title="6">&</div>
 <div class="cards" data-title="7">$</div>
-<div class="cards" data-title="8">Â¥</div>
+<div class="cards" data-title="8">¥</div>
 <div class="cards" data-title="9">*</div>`;
 
 // SET GLOBAL VARIABLES
